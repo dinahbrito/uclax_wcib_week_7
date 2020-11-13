@@ -1,6 +1,12 @@
 img {
   max-width: 50%; }
 
+.wrapper p {
+  margin-bottom: 0px; }
+
+.buttons {
+  margin-top: 20px; }
+
 /*
  * Globals
  */
