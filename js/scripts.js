@@ -1,29 +1,45 @@
 jQuery(function() {
 
-let my_switch = false;
+	let my_count = 1;
 
-$('#my_image').click(function () {
+     $('#my_words').click(function () {
 
-	if ( my_switch == false ) {
-		my_switch = true;
-		$('#my_image').attr('src', 'images/boy.jpg');
-	} else {
-		my_switch = false;
-		$('#my_image').attr('src', 'images/girl.jpg');
-	}
-});
+       my_count++;
+       if ( my_count > 3 ) {
+         my_count = 1;
+       }
 
-let red_switch = false;
+       console.log( my_count );
 
-$('#my_words').click(function (){
+       if ( my_count == 1 ) {
+         $('#my_words').attr('src', 'images/blue.jpg');
+       } else if ( my_count == 2 ) {
+         $('#my_words').attr('src', 'images/pink.jpg');
+       } else if ( my_count == 3 ) {
+         $('#my_words').attr('src', 'images/green.jpg');
+       }
+		 });
 
-	if ( red_switch == false ) {
-		red_switch = true;
-		$('#my_words').attr('src', 'images/blue.jpg');
-	} else {
-		red_switch = false;
-		$('#my_words').attr('src', 'images/pink.jpg');
-	}
+			 let my_counted = 1;
+
+			    $('#my_image').click(function () {
+
+			      my_counted++;
+			      if ( my_counted > 3 ) {
+			        my_counted = 1;
+			      }
+
+			      console.log( my_counted );
+
+			      if ( my_counted == 1 ) {
+			        $('#my_image').attr('src', 'images/boy.jpg');
+			      } else if ( my_counted == 2 ) {
+			        $('#my_image').attr('src', 'images/girl.jpg');
+			      } else if ( my_counted == 3 ) {
+			        $('#my_image').attr('src', 'images/baby.jpg');
+			      }
+
+
 
 });
 
