@@ -1,5 +1,5 @@
 jQuery(function() {
-//congrats
+//eyes
 	let my_count = 1;
 
      $('#eyes').click(function () {
@@ -21,8 +21,7 @@ jQuery(function() {
          $('#eyes').attr('src', 'images/eyes4.jpg');
        }
 		 });
-//images
-
+//nose
 			 let my_counted = 1;
 
 			    $('#nose').click(function () {
@@ -44,7 +43,7 @@ jQuery(function() {
 			        $('#nose').attr('src', 'images/nose4.jpg');
 			      }
 });
-
+//mouth
 let my_count3 = 1;
 
 	 $('#mouth').click(function () {
@@ -66,9 +65,7 @@ let my_count3 = 1;
 			 $('#mouth').attr('src', 'images/mouth4.jpg');
 		 }
 	 });
-
 //button
-
 $( "#my_button" ).on("click", function() {
 					 if( $( "body" ).hasClass( "light" )) {
 							 $( "body" ).removeClass( "light" );
