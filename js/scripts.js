@@ -2,7 +2,7 @@ jQuery(function() {
 //congrats
 	let my_count = 1;
 
-     $('#my_words').click(function () {
+     $('#eyes').click(function () {
 
        my_count++;
        if ( my_count > 3 ) {
@@ -12,18 +12,18 @@ jQuery(function() {
        console.log( my_count );
 
        if ( my_count == 1 ) {
-         $('#my_words').attr('src', 'images/pink.jpg');
+         $('#eyes').attr('src', 'images/eyes1.jpg');
        } else if ( my_count == 2 ) {
-         $('#my_words').attr('src', 'images/blue.jpg');
+         $('#eyes').attr('src', 'images/eyes2.jpg');
        } else if ( my_count == 3 ) {
-         $('#my_words').attr('src', 'images/green.jpg');
+         $('#eyes').attr('src', 'images/eyes3.jpg');
        }
 		 });
 //images
 
 			 let my_counted = 1;
 
-			    $('#my_image').click(function () {
+			    $('#nose').click(function () {
 
 			      my_counted++;
 			      if ( my_counted > 3 ) {
@@ -33,13 +33,33 @@ jQuery(function() {
 			      console.log( my_counted );
 
 			      if ( my_counted == 1 ) {
-			        $('#my_image').attr('src', 'images/girl.jpg');
+			        $('#nose').attr('src', 'images/nose1.jpg');
 			      } else if ( my_counted == 2 ) {
-			        $('#my_image').attr('src', 'images/boy.jpg');
+			        $('#nose').attr('src', 'images/nose2.jpg');
 			      } else if ( my_counted == 3 ) {
-			        $('#my_image').attr('src', 'images/baby.jpg');
+			        $('#nose').attr('src', 'images/nose3.jpg');
 			      }
 });
+
+let my_count3 = 1;
+
+	 $('#mouth').click(function () {
+
+		 my_count3++;
+		 if ( my_count3 > 3 ) {
+			 my_count3 = 1;
+		 }
+
+		 console.log( my_count3 );
+
+		 if ( my_count3 == 1 ) {
+			 $('#mouth').attr('src', 'images/mouth1.jpg');
+		 } else if ( my_count3 == 2 ) {
+			 $('#mouth').attr('src', 'images/mouth2.jpg');
+		 } else if ( my_count3 == 3 ) {
+			 $('#mouth').attr('src', 'images/mouth3.jpg');
+		 }
+	 });
 
 //button
 
