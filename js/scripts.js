@@ -1,5 +1,5 @@
 jQuery(function() {
-
+//congrats
 	let my_count = 1;
 
      $('#my_words').click(function () {
@@ -19,6 +19,7 @@ jQuery(function() {
          $('#my_words').attr('src', 'images/green.jpg');
        }
 		 });
+//images
 
 			 let my_counted = 1;
 
@@ -38,9 +39,18 @@ jQuery(function() {
 			      } else if ( my_counted == 3 ) {
 			        $('#my_image').attr('src', 'images/baby.jpg');
 			      }
-
-
-
 });
+
+//button
+
+$( "#my_button" ).on("click", function() {
+					 if( $( "body" ).hasClass( "light" )) {
+							 $( "body" ).removeClass( "light" );
+							 $( "#my_button" ).text( "Dark Mode" );
+					 } else {
+							 $( "body" ).addClass( "light" );
+							 $( "#my_button" ).text( "Light Mode" );
+					 }
+			 });
 
 });
