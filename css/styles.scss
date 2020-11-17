@@ -1,11 +1,24 @@
 .light{
-  background-color: #FFFFF0;
+	background: url("../images/star-doodle-bg-inverted.png") no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	background-color: #FAF0E6;
   color: black;
 	a:link, a:visited {
   color: black;
 	border-bottom-color: black;
 }
         }
+
+body {
+	background: url("../images/star-doodle-bg.png") no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
 
 img {
 	max-width: 50%;
@@ -16,8 +29,9 @@ img {
 }
 
 .wrapper p {
-	margin-bottom: 2px;
-	margin-top: 1px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
 }
 
 .buttons {

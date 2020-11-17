@@ -5,7 +5,7 @@ jQuery(function() {
      $('#eyes').click(function () {
 
        my_count++;
-       if ( my_count > 3 ) {
+       if ( my_count > 4 ) {
          my_count = 1;
        }
 
@@ -17,6 +17,8 @@ jQuery(function() {
          $('#eyes').attr('src', 'images/eyes2.jpg');
        } else if ( my_count == 3 ) {
          $('#eyes').attr('src', 'images/eyes3.jpg');
+       } else if ( my_count == 4 ) {
+         $('#eyes').attr('src', 'images/eyes4.jpg');
        }
 		 });
 //images
@@ -26,7 +28,7 @@ jQuery(function() {
 			    $('#nose').click(function () {
 
 			      my_counted++;
-			      if ( my_counted > 3 ) {
+			      if ( my_counted > 4 ) {
 			        my_counted = 1;
 			      }
 
@@ -38,6 +40,8 @@ jQuery(function() {
 			        $('#nose').attr('src', 'images/nose2.jpg');
 			      } else if ( my_counted == 3 ) {
 			        $('#nose').attr('src', 'images/nose3.jpg');
+			      } else if ( my_counted == 4 ) {
+			        $('#nose').attr('src', 'images/nose4.jpg');
 			      }
 });
 
@@ -46,7 +50,7 @@ let my_count3 = 1;
 	 $('#mouth').click(function () {
 
 		 my_count3++;
-		 if ( my_count3 > 3 ) {
+		 if ( my_count3 > 4 ) {
 			 my_count3 = 1;
 		 }
 
@@ -58,6 +62,8 @@ let my_count3 = 1;
 			 $('#mouth').attr('src', 'images/mouth2.jpg');
 		 } else if ( my_count3 == 3 ) {
 			 $('#mouth').attr('src', 'images/mouth3.jpg');
+		 } else if ( my_count3 == 4 ) {
+			 $('#mouth').attr('src', 'images/mouth4.jpg');
 		 }
 	 });
 
