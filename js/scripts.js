@@ -46,10 +46,10 @@ jQuery(function() {
 $( "#my_button" ).on("click", function() {
 					 if( $( "body" ).hasClass( "light" )) {
 							 $( "body" ).removeClass( "light" );
-							 $( "#my_button" ).text( "Dark Mode" );
+							 $( "#my_button" ).text( "Light Mode" );
 					 } else {
 							 $( "body" ).addClass( "light" );
-							 $( "#my_button" ).text( "Light Mode" );
+							 $( "#my_button" ).text( "Dark Mode" );
 					 }
 			 });
 
